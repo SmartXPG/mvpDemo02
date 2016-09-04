@@ -1,0 +1,11 @@
+# mvpDemo02
+mvp模式登陆小demo
+mvp设计模式之与mvc模式
+首先mvp解决了什么问题,android中的mvc其中view层指的是activity
+但是,我们通常在一个activiy中,既要展示ui相关的组件,又要联网去获取数据然后修改ui，
+这里activity即是view又是controller,通常复杂的情况下我们的activity动辄至少代码量在500行以上比较复杂
+mvp模式下
+我们的交互模式见mvp与mvc模式下的区别
+mvp优势
+1、代码耦合性更低
+2、将activity中的view与controller分离逻辑更严谨
